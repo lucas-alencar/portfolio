@@ -20,11 +20,15 @@ p {
 }
 
 .parallax-container {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
   min-height: 380px;
   line-height: 0;
-  height: auto;
+  height: 91vh;
   color: rgba(255,255,255,.9);
 }
+  .parallax-container .introduction{
+    margin-left: 10%;
+  }
   .parallax-container .section {
     width: 100%;
   }

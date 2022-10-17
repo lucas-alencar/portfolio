@@ -16,44 +16,33 @@
 <body>
     <!-- Navbar -->
     <div class="navbar-fixed">
-        <nav class="grey lighten-5" role="navigation">
-            <div class="nav-wrapper container">
-                <a id="logo-container" href="index.html" class="brand-logo">portfólio</a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="inicio">Início</a></li>
-                    <li><a href="sobreMim">Sobre mim</a></li>
-                    <li><a href="projetos">Projetos</a></li>
-                    <li><a href="habilidades">Habilidades</a></li>
-                    <li><a href="contato">Contato</a></li>
-                </ul>
-
-                <ul id="nav-mobile" class="sidenav">
-                    <li><a href="inicio">Início</a></li>
-                    <li><a href="sobreMim">Sobre mim</a></li>
-                    <li><a href="projetos">Projetos</a></li>
-                    <li><a href="habilidades">Habilidades</a></li>
-                    <li><a href="contato">Contato</a></li>
-                </ul>
-                <a data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <nav class="grey lighten-5">
+            <div class="nav-wrapper">
+              <a href="#" class="brand-logo">portfólio</a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#index-banner">Início</a></li>
+                <li><a href="#meus-projetos">Projetos</a></li>
+                <li><a href="#sobre-mim">Sobre mim</a></li>
+                <li><a href="#conhecimentos">Conhecimentos</a></li>
+                <li><a href="#contato">Contato</a></li>
+              </ul>
             </div>
-        </nav>
-    </div>
-
-
+          </nav>
+</div>
     <!-- Tela inicial -->
     <div id="index-banner" class="parallax-container tela-inicial valign-wrapper">
         <div class="introduction">
             <h1>Lucas Alencar</h1>
-            <h5>Desenvolvedor full-stack<br> <!-- Adicionar animação aqui-->
+            <h5>Desenvolvedor full-stack <!-- Adicionar animação aqui-->
             </h5>
             <div class="buttonsIntro">
                 <a target="_blank" href="https://www.linkedin.com/in/lucas-rodrigues-37162524b/"
-                    class="waves-effect grey darken-3 waves-light btn-small">Linkedin</a>
+                    class="waves-effect grey darken-3 waves-light btnbtn btn-small">Linkedin</a>
                 <a target="_blank" href="https://github.com/lucas-alencar"
                     class="waves-effect grey darken-3 waves-light btn-small btnbt">GitHub</a>
-                <a target="_blank"
+                    <a target="_blank"
                     href="https://drive.google.com/drive/folders/1k_b1pZ6lOdEVDKf3iz82FU1hDtAswCOA?usp=sharing"
-                    class="waves-effect grey darken-3 waves-light btn-small btnbt">Baixar currículo</a>
+                    class="waves-effect grey darken-3 waves-light btn-small btnbt down-button">Baixar currículo</a>
             </div>
         </div>
         <div class="parallax"><img src="images/computer.jpg" alt="Unsplashed background img 1"></div>
@@ -66,7 +55,7 @@
                 <div class="col s12">
                     <h3><i class="mdi-content-send"></i></h3>
                     <h3 class="col s12">Meus projetos</h3>
-                    <div class="cardsContainer">
+                    <div class="cardsContainer" id="meus-projetos">
                         <div class="card small">
                             <div class="card-image waves-effect waves-block waves-light">
                                 <img class="activator" src="images/temporary.jpg">
@@ -169,9 +158,9 @@
             </div>
         </div>
     </div>
-
+    <div id="sobre-mim"></div>
     <!-- Sobre mim -->
-    <div id="index-banner" class="parallax-container sobre-mim valign-wrapper">
+    <div id="index-banner"  class="parallax-container sobre-mim valign-wrapper">
         <div class="container">
             <div class="section">
                 <div class="row">
@@ -196,7 +185,7 @@
     <!-- Habilidades -->
     <div class="container">
         <div class="section">
-            <div class="row">
+            <div class="row" id="conhecimentos">
                 <div class="col s12">
                     <h3><i class="mdi-content-send"></i></h3>
                     <h3 class="col s12">Conhecimentos</h3>
@@ -214,7 +203,7 @@
     </div>
     <!-- Contato -->
 
-    <footer class="page-footer blue-grey darken-3">
+    <footer id="contato" class="page-footer blue-grey darken-3">
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">

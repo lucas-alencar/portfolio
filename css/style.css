@@ -6,6 +6,10 @@
  * Made By MaterializeCSS.com
  */
 
+html{
+  scroll-behavior: smooth;
+}
+
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -14,6 +18,14 @@ nav .brand-logo {
 p {
   line-height: 2rem;
   margin-left: 1.3%;
+}
+
+h1{
+  margin-bottom: 0px;
+}
+
+h5{
+  margin-top: 5px;
 }
 
 .sidenav-trigger {
@@ -33,14 +45,12 @@ p {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
   min-height: 380px;
   line-height: 0;
-  height: 91vh;
+  height: 100vh;
   color: rgba(255, 255, 255, .9);
 }
 
 .sobre-mim {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
-
-  max-height: 300px;
   line-height: 0;
   color: rgba(255, 255, 255, .9);
 }
@@ -64,7 +74,16 @@ p {
 }
 
 .buttonsIntro .btnbt {
-  margin-left: 5%;
+  margin-left: 2%;
+  margin-top: 3%;
+}
+
+.buttonsIntro .btnbtn {
+  margin-top: 3%;
+}
+
+.left-align{
+  margin-right: 5%;
 }
 
 @media only screen and (max-width : 992px) {
@@ -78,7 +97,19 @@ p {
   }
 }
 
+@media only screen and (max-width : 50000px) {
+  .sobre-mim{
+    max-height: 400px;
+  }
+  #index-banner .section {
+    top: 0;
+  }
+}
+
 @media only screen and (max-width : 600px) {
+  .sobre-mim{
+    max-height: 40000px;
+  }
   #index-banner .section {
     top: 0;
   }

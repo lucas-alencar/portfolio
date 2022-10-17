@@ -49,6 +49,12 @@ p {
   margin-left: 10%;
 }
 
+.circle{
+  max-width: 20%;
+  margin-left: 10%;
+  margin-top: 5%;  
+}
+
 .parallax-container .section {
   width: 100%;
 }

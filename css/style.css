@@ -13,39 +13,60 @@ nav .brand-logo {
 
 p {
   line-height: 2rem;
+  margin-left: 1.3%;
 }
 
 .sidenav-trigger {
   color: #26a69a;
 }
 
-.parallax-container {
+.card{
+  display: inline-block;
+  margin-left: 2%;
+}
+
+.activator {
+  max-width: 300px;
+}
+
+.tela-inicial {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
   min-height: 380px;
   line-height: 0;
   height: 91vh;
-  color: rgba(255,255,255,.9);
+  color: rgba(255, 255, 255, .9);
 }
-  .parallax-container .introduction{
-    margin-left: 10%;
-  }
-  .parallax-container .section {
-    width: 100%;
-  }
 
-  .buttonsIntro{
-    margin-top: 5%;
-  }
+.sobre-mim {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
 
-  .buttonsIntro .btnbt{
-    margin-left: 5%;
-  }
+  max-height: 300px;
+  line-height: 0;
+  color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container .introduction {
+  margin-left: 10%;
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+.buttonsIntro {
+  margin-top: 5%;
+}
+
+.buttonsIntro .btnbt {
+  margin-left: 5%;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
     top: 40%;
   }
+
   #index-banner .section {
     top: 10%;
   }
@@ -60,6 +81,7 @@ p {
 .icon-block {
   padding: 0 15px;
 }
+
 .icon-block .material-icons {
   font-size: inherit;
 }

@@ -33,6 +33,14 @@ p {
     width: 100%;
   }
 
+  .buttonsIntro{
+    margin-top: 5%;
+  }
+
+  .buttonsIntro .btnbt{
+    margin-left: 5%;
+  }
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;

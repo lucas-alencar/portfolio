@@ -24,8 +24,32 @@ h1{
   margin-bottom: 0px;
 }
 
-h5{
+.typed-text{
+  font-weight: normal;
+  color: #fafafa;
+}
+
+.cursor{
+  display: inline-block;
+  width: 2px;
+  background-color: #fafafa;
+  margin-left: 0.1rem;
+  animation: blink 0.8s infinite;
+}
+
+@keyframes blink{
+  0% {background-color: #fafafa;}
+  50%{background-color: transparent;}
+  100%{background-color: #fafafa;}
+}
+
+.title{
   margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.subtitle{
+  margin-top: 0px;
 }
 
 .sidenav-trigger {

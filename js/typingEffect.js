@@ -1,4 +1,4 @@
-const textArray = ["javascript", "spring", "PHP", "React", "NodeJS", "MySQL", "PostgreSQL"];
+const textArray = ["Java", "Spring Boot", "PHP","Python", "Node.JS", "MySQL", "PostgreSQL"];
 const typingDelay = 100;
 const erasingDelay = 50;
 const newTextDelay = 100;
